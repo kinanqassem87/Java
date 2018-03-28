@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.ve.java.core.launcher.JavaBean">
+<booleanAttribute key=" PACK" value="false"/>
+<stringAttribute key="SWING_LOOKANDFEEL" value=""/>
+<stringAttribute key="LOCALE" value=""/>
+<booleanAttribute key="isSWT" value="false"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Practices"/>
+<stringAttribute key="APPLET_PARMS_NUMBER" value="0"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Welcome1"/>
+</launchConfiguration>

@@ -1,0 +1,3 @@
+class HeavyVehicle extends Object{
+	
+}

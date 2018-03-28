@@ -1,0 +1,6 @@
+Title: Complete Java GUI Tutorial - Beginner to Expert!
+Description: Packed with OVER 25 FULLY COMMENTED CODE EXAMPLES this tutorial teaches you everything from how to make a button to advanced event handling. It assumes NO PREVIOUS JAVA KNOWLEDGE! I include a screenshot of all the programs so you know what it should look like. It's divided into two sections - The first to teach you everything about the objects such as buttons, labels, and text fields. The second to teach you how to handle all the events the objects make. In the first part, you will learn all about: Buttons, Labels, Text Fields, Text Areas, Check Boxes, Radio Buttons, Drop Down Lists, Panels, 3 different Layout Managers. In the second part, you'll learn about all the events that the above objects use, complete with working examples for everything I demonstrate. Please leave a comment and vote!
+This file came from Planet-Source-Code.com...the home millions of lines of source code
+You can view comments on this code/and or vote on it at: http://www.Planet-Source-Code.com/vb/scripts/ShowCode.asp?txtCodeId=3458&lngWId=2
+
+The author may have retained certain copyrights to this code...please observe their request and the law by reviewing all copyright conditions at the above URL.

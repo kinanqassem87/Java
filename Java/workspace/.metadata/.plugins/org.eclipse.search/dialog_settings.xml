@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jdt.ui.JavaSearchResultPage">
+	</section>
+	<section name="Search">
+		<list key="Search.processedPageIds">
+			<item value="org.eclipse.search.internal.ui.text.TextSearchPage"/>
+			<item value="org.eclipse.jdt.ui.JavaSearchPage"/>
+			<item value="org.eclipse.pde.internal.ui.search.SearchPage"/>
+			<item value="org.eclipse.jdt.ui.refactoring.NLSSearchPage"/>
+		</list>
+		<list value="org.eclipse.jdt.ui.refactoring.NLSSearchPage" key="Search.enabledPageIds">
+			<item value="org.eclipse.search.internal.ui.text.TextSearchPage"/>
+			<item value="org.eclipse.jdt.ui.JavaSearchPage"/>
+			<item value="org.eclipse.pde.internal.ui.search.SearchPage"/>
+		</list>
+	</section>
+	<section name="org.eclipse.search.text.FileSearchResultPage">
+	</section>
+	<section name="TextSearchPage">
+		<item value="false" key="CASE_SENSITIVE"/>
+		<item value="false" key="REG_EX_SEARCH"/>
+		<item value="false" key="SEARCH_DERIVED"/>
+		<item value="1" key="HISTORY_SIZE"/>
+		<section name="HISTORY0">
+			<item value="false" key="isRegExSearch"/>
+			<item value="kkk" key="textPattern"/>
+			<item value="0" key="scope"/>
+			<item value="true" key="ignoreCase"/>
+			<list key="fileNamePatterns">
+				<item value="*.shapes"/>
+				<item value="*.prefs"/>
+				<item value="*.product"/>
+				<item value="*.text"/>
+				<item value="*.ent"/>
+				<item value="*.flow"/>
+				<item value="*.ecore2xml"/>
+				<item value="*.jpage"/>
+				<item value="*.shtml"/>
+				<item value="*.ecore"/>
+				<item value="*.logic"/>
+				<item value="*.ecore2ecore"/>
+				<item value="*.html"/>
+				<item value="*.htm"/>
+				<item value="*.exsd"/>
+				<item value="*.xsd"/>
+				<item value="*.xml"/>
+				<item value="*.xmi"/>
+				<item value="*.macrodef"/>
+				<item value="*.datagraph"/>
+				<item value="*.override"/>
+				<item value="*.emof"/>
+				<item value="*.txt"/>
+				<item value="*.class"/>
+				<item value="*.xsd2ecore"/>
+				<item value="*.java"/>
+				<item value="*.properties"/>
+				<item value="*.jardesc"/>
+				<item value="*.genmodel"/>
+			</list>
+			<list value="*.genmodel" key="workingSets">
+			</list>
+		</section>
+	</section>
+	<section name="SearchDialog.ScopePart">
+		<item value="0" key="scope"/>
+	</section>
+</section>

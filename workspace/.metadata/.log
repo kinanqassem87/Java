@@ -1,0 +1,443 @@
+!SESSION 2012-01-09 12:28:48.385 -----------------------------------------------
+eclipse.buildId=M20060118-1600
+java.version=1.6.0_03
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jdt.ui 4 0 2012-01-09 13:31:34.907
+!MESSAGE Error in JDT Core during reconcile
+!STACK 1
+Java Model Exception: Java Model Status [Car does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:468)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:328)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:488)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:232)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:218)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:1520)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2426)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:60)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:74)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:148)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:214)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:79)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:718)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:777)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1081)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:98)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java:1044)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:783)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:82)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:147)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:94)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:75)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.process(JavaReconciler.java:339)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:204)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2012-01-09 13:31:34.907
+!MESSAGE Car does not exist
+!SESSION 2012-05-02 12:39:04.188 -----------------------------------------------
+eclipse.buildId=M20060118-1600
+java.version=1.6.0_03
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-05-02 12:39:05.467
+!MESSAGE A workspace crash was detected. The previous session did not exit normally.
+!SESSION 2012-05-15 13:40:49.536 -----------------------------------------------
+eclipse.buildId=M20060118-1600
+java.version=1.6.0_03
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jdt.ui 4 2 2012-05-15 13:55:12.467
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2583)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1040)
+	at org.eclipse.jdt.core.dom.ASTConverter.checkAndAddMultipleFieldDeclaration(ASTConverter.java:360)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:171)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2487)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1159)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:261)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:162)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:488)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:956)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:61)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:718)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:777)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1081)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:98)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java:1044)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:783)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:82)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:147)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:94)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:75)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.process(JavaReconciler.java:339)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:204)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2012-05-15 13:55:12.842
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2583)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1040)
+	at org.eclipse.jdt.core.dom.ASTConverter.checkAndAddMultipleFieldDeclaration(ASTConverter.java:360)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:171)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2487)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1159)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:261)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:162)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:488)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:956)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:61)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:718)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:777)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1081)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:98)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java:1044)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:783)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:82)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:147)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:94)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:75)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.process(JavaReconciler.java:339)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:204)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2012-05-15 13:55:15.977
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2583)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1040)
+	at org.eclipse.jdt.core.dom.ASTConverter.checkAndAddMultipleFieldDeclaration(ASTConverter.java:360)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:171)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2487)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1159)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:251)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:810)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:588)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:566)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java:1044)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:783)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:563)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:493)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:165)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:76)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2012-05-15 13:55:15.993
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2583)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1040)
+	at org.eclipse.jdt.core.dom.ASTConverter.checkAndAddMultipleFieldDeclaration(ASTConverter.java:360)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:171)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2487)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1159)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:251)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:810)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:588)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:566)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java:1044)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:783)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:563)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:493)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:165)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:76)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2012-05-15 13:55:18.505
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2583)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1040)
+	at org.eclipse.jdt.core.dom.ASTConverter.checkAndAddMultipleFieldDeclaration(ASTConverter.java:360)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:171)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2487)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1159)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:251)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:810)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:588)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:566)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java:1044)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:783)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:563)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:493)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:165)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:76)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2012-05-15 13:55:18.505
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2583)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1040)
+	at org.eclipse.jdt.core.dom.ASTConverter.checkAndAddMultipleFieldDeclaration(ASTConverter.java:360)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:171)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2487)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1159)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:251)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:810)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:588)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:566)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java:1044)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:783)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:563)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:493)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:165)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:76)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2012-05-15 13:55:20.02
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2583)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1040)
+	at org.eclipse.jdt.core.dom.ASTConverter.checkAndAddMultipleFieldDeclaration(ASTConverter.java:360)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:171)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2487)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1159)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:251)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:810)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:588)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:566)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java:1044)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:783)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:563)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:493)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:165)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:76)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2012-05-15 13:55:20.18
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2583)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1040)
+	at org.eclipse.jdt.core.dom.ASTConverter.checkAndAddMultipleFieldDeclaration(ASTConverter.java:360)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:171)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2487)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1159)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:251)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:810)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:588)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:566)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java:1044)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:783)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:563)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:493)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:165)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:76)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2012-05-15 13:55:23.653
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2583)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1040)
+	at org.eclipse.jdt.core.dom.ASTConverter.checkAndAddMultipleFieldDeclaration(ASTConverter.java:360)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:171)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2487)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1159)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:261)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:162)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:488)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:956)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:61)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:718)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:777)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1081)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:98)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java:1044)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:783)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:82)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:147)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:94)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:75)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.process(JavaReconciler.java:339)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:204)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2012-05-15 13:55:23.668
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2583)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1040)
+	at org.eclipse.jdt.core.dom.ASTConverter.checkAndAddMultipleFieldDeclaration(ASTConverter.java:360)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:171)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2487)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1159)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:261)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:162)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:488)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:956)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:61)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:718)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:777)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1081)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:98)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java:1044)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:783)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:82)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:147)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:94)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:75)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.process(JavaReconciler.java:339)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:204)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2012-05-15 13:55:27.287
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2583)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1040)
+	at org.eclipse.jdt.core.dom.ASTConverter.checkAndAddMultipleFieldDeclaration(ASTConverter.java:360)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:171)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2487)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1159)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:261)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:162)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:488)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:956)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:61)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:718)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:777)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1081)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:98)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java:1044)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:783)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:82)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:147)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:94)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:75)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.process(JavaReconciler.java:339)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:204)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2012-05-15 13:55:27.287
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2583)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1040)
+	at org.eclipse.jdt.core.dom.ASTConverter.checkAndAddMultipleFieldDeclaration(ASTConverter.java:360)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:171)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2487)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1159)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:261)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:162)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:488)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:956)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:61)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:718)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:777)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1081)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:98)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java:1044)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:783)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:82)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:147)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:94)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:75)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.process(JavaReconciler.java:339)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:204)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2012-05-15 13:55:28.769
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2583)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1040)
+	at org.eclipse.jdt.core.dom.ASTConverter.checkAndAddMultipleFieldDeclaration(ASTConverter.java:360)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:171)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2487)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1159)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:251)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:810)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:588)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:566)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java:1044)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:783)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:563)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:493)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:165)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:76)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2012-05-15 13:55:28.785
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2583)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1040)
+	at org.eclipse.jdt.core.dom.ASTConverter.checkAndAddMultipleFieldDeclaration(ASTConverter.java:360)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:171)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2487)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1159)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:251)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:810)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:588)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:566)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java:1044)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:783)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:563)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:493)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:165)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run(SelectionListenerWithASTManager.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:76)
+!SESSION 2012-06-03 12:20:00.310 -----------------------------------------------
+eclipse.buildId=M20060118-1600
+java.version=1.6.0_03
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2012-06-03 13:01:02.311
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Build path contains duplicate entry: 'C:Program Files/Java/jre1.6.0_03/lib/resources.jar' for project Test_V
+	at org.eclipse.jdt.internal.corext.buildpath.ClasspathModifier.validateAndAddEntry(ClasspathModifier.java:1897)
+	at org.eclipse.jdt.internal.corext.buildpath.ClasspathModifier.setNewEntry(ClasspathModifier.java:1801)
+	at org.eclipse.jdt.internal.corext.buildpath.ClasspathModifier.addLibraries(ClasspathModifier.java:331)
+	at org.eclipse.jdt.internal.corext.buildpath.AddLibraryOperation.run(AddLibraryOperation.java:62)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.BuildPathAction$1.run(BuildPathAction.java:121)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:113)
+!SUBENTRY 1 org.eclipse.jdt.ui 4 4 2012-06-03 13:01:02.321
+!MESSAGE Build path contains duplicate entry: 'C:Program Files/Java/jre1.6.0_03/lib/resources.jar' for project Test_V
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2012-06-03 13:36:29.640
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Build path contains duplicate entry: 'C:Program Files/Java/jre1.6.0_03/lib/resources.jar' for project Test_V
+	at org.eclipse.jdt.internal.corext.buildpath.ClasspathModifier.validateAndAddEntry(ClasspathModifier.java:1897)
+	at org.eclipse.jdt.internal.corext.buildpath.ClasspathModifier.setNewEntry(ClasspathModifier.java:1801)
+	at org.eclipse.jdt.internal.corext.buildpath.ClasspathModifier.addLibraries(ClasspathModifier.java:331)
+	at org.eclipse.jdt.internal.corext.buildpath.AddLibraryOperation.run(AddLibraryOperation.java:62)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.BuildPathAction$1.run(BuildPathAction.java:121)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:113)
+!SUBENTRY 1 org.eclipse.jdt.ui 4 4 2012-06-03 13:36:29.640
+!MESSAGE Build path contains duplicate entry: 'C:Program Files/Java/jre1.6.0_03/lib/resources.jar' for project Test_V
